@@ -1,0 +1,14 @@
+{
+  "name": "jamescathy",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "James",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
