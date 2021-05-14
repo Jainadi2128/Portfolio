@@ -3,13 +3,24 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio website",
   "main": "index.js",
+  "homepage": "https://Jainadi2128.github.io/Portfolio",
   "scripts": {
-    "test": "node-sass -w scss/ -o dist/css/ --recursive"
+    "test": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "James",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "node-sass": "^6.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jainadi2128/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jainadi2128/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Jainadi2128/Portfolio#readme"
 }
